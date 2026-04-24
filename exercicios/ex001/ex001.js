@@ -1,2 +1,5 @@
-//console.log('Está linha é um comentário') ou usar /**/ para bloco de linhas
-console.log('Olá Mundo')
+'use strict' // modo estrito, serve para evitar variáveis sem declaração
+let nome = 'Adrian'
+console.log('Programador')
+console.log(nome)
+console.log('nome: ' + nome)

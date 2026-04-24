@@ -1,7 +1,11 @@
-let n = 10
+// Operador Tenário
 
-// ++n Pre incremento
-// n++ Pós incremento
+let num1 = 10
+let num2 = 5
+let res = (num1 > num2 ? "Verdadeiro" : "Falso")
+console.log(res)
 
-console.log(n++)
+// 0 = False
+// 1 = True
 
+// Teste Lógico ? se verdadeiro : se falso

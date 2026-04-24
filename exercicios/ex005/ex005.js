@@ -1,7 +1,15 @@
-// Operadores Relacionais
+// && -> and e
+// || -> or ou
+// ! -> not não
 
-let num1 = 10
-let num2 = 5
-let num3 = 10
+let n1, n2, n3, n4
 
-console.log(!(num1 != num3))
+n1 = 10
+n2 = 5
+n3 = 15
+n4 = 2
+if(n1 > n2) {
+    console.log(`O número ${n1} é maior que o número ${n2} combinado`)
+} else {
+    console.log(`O número ${n1} é menor que o número ${n2} combinado `)
+}

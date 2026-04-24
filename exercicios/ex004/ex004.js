@@ -1,10 +1,7 @@
-// Operadores Aritméticos
+// Operadores Relacionais
 
-let num1 = 0, num2 = 0, res = 0
+let num1 = 10
+let num2 = 5
+let num3 = 10
 
-num1 =10
-num2 = 15
-
-num1 *=3
-
-console.log(num1)
+console.log(!(num1 != num3))
