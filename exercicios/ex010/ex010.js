@@ -1,11 +1,10 @@
-let num = 10
+let energia = 100
+let clima = "chovendo"
 
-if (num > 10) {
-    console.log(`Numeral maior que 10`)
-} else if (num > 5){
-    console.log(`Numeral está entre 6 e 10`)
+if (energia > 70 && clima == "sol") {
+    console.log(`Vou para praia`)
 } else {
-    console.log(`Numeral menor ou igual a 5`)
+    console.log(`Vou para o cinema`)
 }
 
 console.log(`Fim do programa`)
